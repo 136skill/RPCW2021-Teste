@@ -7,9 +7,11 @@ SETUP PARA BASE DE DADOS PARA O EX1:
     Primeiramente dividi o json fornecido em dois, isto é, copiei o array de objetos cidades para um
 ficheiro e o de ligações para outro.
 
-    De seguida substitui a palavra distância por distancia tirando o acento. Este passo é feito dado que temos que aceder
-a esta variável para fazer a úlktima alínea no exercício e o acento estava a impedir isso.
-Por último dei import dos dois ficheiros no MongoDB utilizando os seguintes comandos:
+    De seguida substitui a palavra distância por distancia tirando o acento. Este passo é feito dado 
+que temos que aceder a esta variável para fazer a úlktima alínea no exercício e o acento estava a 
+impedir isso.
+
+    Por último dei import dos dois ficheiros no MongoDB utilizando os seguintes comandos:
         -> mongoimport -d MAPA2022 -c ligacoes ligacoes.json --jsonArray
         -> mongoimport -d MAPA2022 -c cidades cidades.json --jsonArray
 
@@ -23,7 +25,8 @@ Para executar as aplicações de ambos os exercícios deve ser usado o comando "
 RESPOSTAS PARA O AQUECIMENTO:
 
 1) Existem 18 Processos
-    ['750.10.001', '750.10.002', '750.10.300', '750.10.600', '750.10.601', '750.10.602', '750.20.001', '750.20.002', '750.20.003', '750.20.300', '750.20.301', '750.20.600', '750.20.601', '750.30.001', '750.30.300', '750.30.600', '750.30.601', '750.30.602']
+    ['750.10.001', '750.10.002', '750.10.300', '750.10.600', '750.10.601', '750.10.602', '750.20.001', '750.20.002', '750.20.003',
+    '750.20.300', '750.20.301', '750.20.600', '750.20.601', '750.30.001', '750.30.300', '750.30.600', '750.30.601', '750.30.602']
 
 2) 647 Entidades
 
