@@ -2,14 +2,16 @@ Teste RPCW 2022
 Maria Beatriz Araújo Lacerda
 A89535
 
-SETUP PARA BASE DE DADOS PARA O EX1:
+PERSISTÊNCIA DE DADOS EX1:
 
     Primeiramente dividi o json fornecido em dois, isto é, copiei o array de objetos cidades para um
 ficheiro e o de ligações para outro.
 
     De seguida substitui a palavra distância por distancia tirando o acento. Este passo é feito dado 
-que temos que aceder a esta variável para fazer a úlktima alínea no exercício e o acento estava a 
+que temos que aceder a esta variável para fazer a última alínea no exercício e o acento estava a 
 impedir isso.
+
+SETUP PARA BASE DE DADOS PARA O EX1:
 
     Por último dei import dos dois ficheiros no MongoDB utilizando os seguintes comandos:
         -> mongoimport -d MAPA2022 -c ligacoes ligacoes.json --jsonArray
